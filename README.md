@@ -23,7 +23,7 @@ Ideal para pequenas empresas, escolas ou uso pessoal.
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/foxdieone/controle_pc.git
+   git clone https://github.com/FoxDieOne/inventario_computadores.git
    ```
 
 2. **Configure o banco de dados:**
