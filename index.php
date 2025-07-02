@@ -49,8 +49,8 @@ if (isset($_GET['editar'])) {
     <meta charset="UTF-8">
     <meta name="color-scheme" content="light">
     <title>Inventário de Computadores</title>
-   <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-   <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body class="body">
@@ -178,8 +178,8 @@ if (isset($_GET['editar'])) {
                         data-modelo='" . htmlspecialchars($computador['modelo']) . "'
                         >Editar</button>
                         <a>&nbsp;</a>
-                        <button href='processa_computador.php?apagar=" . $computador['id'] . "' class='btn' onclick=\"return confirm('Tem certeza que deseja apagar?');\">Apagar</button>
-                    </td>";
+                        <a href='processa_computador.php?apagar=" . $computador['id'] . "' class='btn' onclick=\"return confirm('Tem certeza que deseja apagar?');\">Apagar</a>
+                        </td>";
                 }
             } else {
                 echo "<tr><td colspan='7'>Nenhum computador cadastrado.</td></tr>";
